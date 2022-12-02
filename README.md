@@ -33,7 +33,7 @@
 
 ![Screenshot](Images/6.png)
 
-###### Edit Data in DB
+###### Edit/Delete Data in DB
 
 ![Screenshot](Images/7.png)
 

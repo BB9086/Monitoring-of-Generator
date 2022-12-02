@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="MagneticModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tblGenerators">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Power_MW" Type="int" Nullable="false" />
+          <Property Name="Year" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblMeasurements">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Path1 - raw signal" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="Path2 - fft" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="Path3 - signal features" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="GeneratorId" Type="int" />
+        </EntityType>
+        <EntityType Name="tblResultAlgorithm1">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Pole1" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole2" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole3" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole4" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole5" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole6" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole7" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole8" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole9" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole10" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole11" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole12" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole13" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole14" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole15" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole16" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole17" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole18" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole19" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole20" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole21" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole22" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole23" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole24" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole25" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole26" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole27" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole28" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole29" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole30" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole31" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole32" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="MeasurementId" Type="int" />
+        </EntityType>
+        <EntityType Name="tblResultAlgorithm2">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Pole1" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole2" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole3" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole4" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole5" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole6" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole7" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole8" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole9" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole10" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole11" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole12" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole13" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole14" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole15" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole16" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole17" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole18" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole19" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole20" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole21" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole22" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole23" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole24" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole25" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole26" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole27" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole28" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole29" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole30" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole31" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole32" Type="decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="MeasurementId" Type="int" />
+        </EntityType>
+        <Association Name="FK__tblMeasur__Gener__4E88ABD4">
+          <End Role="tblGenerators" Type="Self.tblGenerators" Multiplicity="0..1" />
+          <End Role="tblMeasurements" Type="Self.tblMeasurements" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblGenerators">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="tblMeasurements">
+              <PropertyRef Name="GeneratorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__tblResult__Measu__52593CB8">
+          <End Role="tblMeasurements" Type="Self.tblMeasurements" Multiplicity="0..1" />
+          <End Role="tblResultAlgorithm1" Type="Self.tblResultAlgorithm1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblMeasurements">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="tblResultAlgorithm1">
+              <PropertyRef Name="MeasurementId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__tblResult__Measu__5535A963">
+          <End Role="tblMeasurements" Type="Self.tblMeasurements" Multiplicity="0..1" />
+          <End Role="tblResultAlgorithm2" Type="Self.tblResultAlgorithm2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblMeasurements">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="tblResultAlgorithm2">
+              <PropertyRef Name="MeasurementId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MagneticModelStoreContainer">
+          <EntitySet Name="tblGenerators" EntityType="Self.tblGenerators" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblMeasurements" EntityType="Self.tblMeasurements" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblResultAlgorithm1" EntityType="Self.tblResultAlgorithm1" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblResultAlgorithm2" EntityType="Self.tblResultAlgorithm2" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__tblMeasur__Gener__4E88ABD4" Association="Self.FK__tblMeasur__Gener__4E88ABD4">
+            <End Role="tblGenerators" EntitySet="tblGenerators" />
+            <End Role="tblMeasurements" EntitySet="tblMeasurements" />
+          </AssociationSet>
+          <AssociationSet Name="FK__tblResult__Measu__52593CB8" Association="Self.FK__tblResult__Measu__52593CB8">
+            <End Role="tblMeasurements" EntitySet="tblMeasurements" />
+            <End Role="tblResultAlgorithm1" EntitySet="tblResultAlgorithm1" />
+          </AssociationSet>
+          <AssociationSet Name="FK__tblResult__Measu__5535A963" Association="Self.FK__tblResult__Measu__5535A963">
+            <End Role="tblMeasurements" EntitySet="tblMeasurements" />
+            <End Role="tblResultAlgorithm2" EntitySet="tblResultAlgorithm2" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MagneticModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Generator">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Power_MW" Type="Int32" Nullable="false" />
+          <Property Name="Year" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Measurements" Relationship="Self.FK__tblMeasur__Gener__4E88ABD4" FromRole="tblGenerators" ToRole="tblMeasurements" />
+        </EntityType>
+        <EntityType Name="Measurement">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Path1___raw_signal" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Path2___fft" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Path3___signal_features" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="GeneratorId" Type="Int32" />
+          <NavigationProperty Name="Generator" Relationship="Self.FK__tblMeasur__Gener__4E88ABD4" FromRole="tblMeasurements" ToRole="tblGenerators" />
+          <NavigationProperty Name="ResultAlgorithm1" Relationship="Self.FK__tblResult__Measu__52593CB8" FromRole="tblMeasurements" ToRole="tblResultAlgorithm1" />
+          <NavigationProperty Name="ResultAlgorithm2" Relationship="Self.FK__tblResult__Measu__5535A963" FromRole="tblMeasurements" ToRole="tblResultAlgorithm2" />
+        </EntityType>
+        <EntityType Name="ResultAlgorithm1">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Pole1" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole2" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole3" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole4" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole5" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole6" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole7" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole8" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole9" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole10" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole11" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole12" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole13" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole14" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole15" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole16" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole17" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole18" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole19" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole20" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole21" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole22" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole23" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole24" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole25" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole26" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole27" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole28" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole29" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole30" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole31" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole32" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="MeasurementId" Type="Int32" />
+          <NavigationProperty Name="Measurement" Relationship="Self.FK__tblResult__Measu__52593CB8" FromRole="tblResultAlgorithm1" ToRole="tblMeasurements" />
+        </EntityType>
+        <EntityType Name="ResultAlgorithm2">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Pole1" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole2" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole3" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole4" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole5" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole6" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole7" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole8" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole9" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole10" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole11" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole12" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole13" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole14" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole15" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole16" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole17" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole18" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole19" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole20" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole21" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole22" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole23" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole24" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole25" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole26" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole27" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole28" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole29" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole30" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole31" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="Pole32" Type="Decimal" Precision="10" Scale="5" Nullable="false" />
+          <Property Name="MeasurementId" Type="Int32" />
+          <NavigationProperty Name="Measurement" Relationship="Self.FK__tblResult__Measu__5535A963" FromRole="tblResultAlgorithm2" ToRole="tblMeasurements" />
+        </EntityType>
+        <Association Name="FK__tblMeasur__Gener__4E88ABD4">
+          <End Role="tblGenerators" Type="MagneticModel.Generator" Multiplicity="0..1" />
+          <End Role="tblMeasurements" Type="MagneticModel.Measurement" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblGenerators">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="tblMeasurements">
+              <PropertyRef Name="GeneratorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__tblResult__Measu__52593CB8">
+          <End Role="tblMeasurements" Type="MagneticModel.Measurement" Multiplicity="0..1" />
+          <End Role="tblResultAlgorithm1" Type="MagneticModel.ResultAlgorithm1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblMeasurements">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="tblResultAlgorithm1">
+              <PropertyRef Name="MeasurementId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__tblResult__Measu__5535A963">
+          <End Role="tblMeasurements" Type="MagneticModel.Measurement" Multiplicity="0..1" />
+          <End Role="tblResultAlgorithm2" Type="MagneticModel.ResultAlgorithm2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblMeasurements">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="tblResultAlgorithm2">
+              <PropertyRef Name="MeasurementId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MagneticDBContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Generators" EntityType="MagneticModel.Generator" />
+          <EntitySet Name="Measurements" EntityType="MagneticModel.Measurement" />
+          <EntitySet Name="ResultAlgorithm1" EntityType="MagneticModel.ResultAlgorithm1" />
+          <EntitySet Name="ResultAlgorithm2" EntityType="MagneticModel.ResultAlgorithm2" />
+          <AssociationSet Name="FK__tblMeasur__Gener__4E88ABD4" Association="Self.FK__tblMeasur__Gener__4E88ABD4">
+            <End Role="tblGenerators" EntitySet="Generators" />
+            <End Role="tblMeasurements" EntitySet="Measurements" />
+          </AssociationSet>
+          <AssociationSet Name="FK__tblResult__Measu__52593CB8" Association="Self.FK__tblResult__Measu__52593CB8">
+            <End Role="tblMeasurements" EntitySet="Measurements" />
+            <End Role="tblResultAlgorithm1" EntitySet="ResultAlgorithm1" />
+          </AssociationSet>
+          <AssociationSet Name="FK__tblResult__Measu__5535A963" Association="Self.FK__tblResult__Measu__5535A963">
+            <End Role="tblMeasurements" EntitySet="Measurements" />
+            <End Role="tblResultAlgorithm2" EntitySet="ResultAlgorithm2" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MagneticModelStoreContainer" CdmEntityContainer="MagneticDBContext">
+          <EntitySetMapping Name="Generators">
+            <EntityTypeMapping TypeName="MagneticModel.Generator">
+              <MappingFragment StoreEntitySet="tblGenerators">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Power_MW" ColumnName="Power_MW" />
+                <ScalarProperty Name="Year" ColumnName="Year" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Measurements">
+            <EntityTypeMapping TypeName="MagneticModel.Measurement">
+              <MappingFragment StoreEntitySet="tblMeasurements">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Path1___raw_signal" ColumnName="Path1 - raw signal" />
+                <ScalarProperty Name="Path2___fft" ColumnName="Path2 - fft" />
+                <ScalarProperty Name="Path3___signal_features" ColumnName="Path3 - signal features" />
+                <ScalarProperty Name="GeneratorId" ColumnName="GeneratorId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ResultAlgorithm1">
+            <EntityTypeMapping TypeName="MagneticModel.ResultAlgorithm1">
+              <MappingFragment StoreEntitySet="tblResultAlgorithm1">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Pole1" ColumnName="Pole1" />
+                <ScalarProperty Name="Pole2" ColumnName="Pole2" />
+                <ScalarProperty Name="Pole3" ColumnName="Pole3" />
+                <ScalarProperty Name="Pole4" ColumnName="Pole4" />
+                <ScalarProperty Name="Pole5" ColumnName="Pole5" />
+                <ScalarProperty Name="Pole6" ColumnName="Pole6" />
+                <ScalarProperty Name="Pole7" ColumnName="Pole7" />
+                <ScalarProperty Name="Pole8" ColumnName="Pole8" />
+                <ScalarProperty Name="Pole9" ColumnName="Pole9" />
+                <ScalarProperty Name="Pole10" ColumnName="Pole10" />
+                <ScalarProperty Name="Pole11" ColumnName="Pole11" />
+                <ScalarProperty Name="Pole12" ColumnName="Pole12" />
+                <ScalarProperty Name="Pole13" ColumnName="Pole13" />
+                <ScalarProperty Name="Pole14" ColumnName="Pole14" />
+                <ScalarProperty Name="Pole15" ColumnName="Pole15" />
+                <ScalarProperty Name="Pole16" ColumnName="Pole16" />
+                <ScalarProperty Name="Pole17" ColumnName="Pole17" />
+                <ScalarProperty Name="Pole18" ColumnName="Pole18" />
+                <ScalarProperty Name="Pole19" ColumnName="Pole19" />
+                <ScalarProperty Name="Pole20" ColumnName="Pole20" />
+                <ScalarProperty Name="Pole21" ColumnName="Pole21" />
+                <ScalarProperty Name="Pole22" ColumnName="Pole22" />
+                <ScalarProperty Name="Pole23" ColumnName="Pole23" />
+                <ScalarProperty Name="Pole24" ColumnName="Pole24" />
+                <ScalarProperty Name="Pole25" ColumnName="Pole25" />
+                <ScalarProperty Name="Pole26" ColumnName="Pole26" />
+                <ScalarProperty Name="Pole27" ColumnName="Pole27" />
+                <ScalarProperty Name="Pole28" ColumnName="Pole28" />
+                <ScalarProperty Name="Pole29" ColumnName="Pole29" />
+                <ScalarProperty Name="Pole30" ColumnName="Pole30" />
+                <ScalarProperty Name="Pole31" ColumnName="Pole31" />
+                <ScalarProperty Name="Pole32" ColumnName="Pole32" />
+                <ScalarProperty Name="MeasurementId" ColumnName="MeasurementId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ResultAlgorithm2">
+            <EntityTypeMapping TypeName="MagneticModel.ResultAlgorithm2">
+              <MappingFragment StoreEntitySet="tblResultAlgorithm2">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Pole1" ColumnName="Pole1" />
+                <ScalarProperty Name="Pole2" ColumnName="Pole2" />
+                <ScalarProperty Name="Pole3" ColumnName="Pole3" />
+                <ScalarProperty Name="Pole4" ColumnName="Pole4" />
+                <ScalarProperty Name="Pole5" ColumnName="Pole5" />
+                <ScalarProperty Name="Pole6" ColumnName="Pole6" />
+                <ScalarProperty Name="Pole7" ColumnName="Pole7" />
+                <ScalarProperty Name="Pole8" ColumnName="Pole8" />
+                <ScalarProperty Name="Pole9" ColumnName="Pole9" />
+                <ScalarProperty Name="Pole10" ColumnName="Pole10" />
+                <ScalarProperty Name="Pole11" ColumnName="Pole11" />
+                <ScalarProperty Name="Pole12" ColumnName="Pole12" />
+                <ScalarProperty Name="Pole13" ColumnName="Pole13" />
+                <ScalarProperty Name="Pole14" ColumnName="Pole14" />
+                <ScalarProperty Name="Pole15" ColumnName="Pole15" />
+                <ScalarProperty Name="Pole16" ColumnName="Pole16" />
+                <ScalarProperty Name="Pole17" ColumnName="Pole17" />
+                <ScalarProperty Name="Pole18" ColumnName="Pole18" />
+                <ScalarProperty Name="Pole19" ColumnName="Pole19" />
+                <ScalarProperty Name="Pole20" ColumnName="Pole20" />
+                <ScalarProperty Name="Pole21" ColumnName="Pole21" />
+                <ScalarProperty Name="Pole22" ColumnName="Pole22" />
+                <ScalarProperty Name="Pole23" ColumnName="Pole23" />
+                <ScalarProperty Name="Pole24" ColumnName="Pole24" />
+                <ScalarProperty Name="Pole25" ColumnName="Pole25" />
+                <ScalarProperty Name="Pole26" ColumnName="Pole26" />
+                <ScalarProperty Name="Pole27" ColumnName="Pole27" />
+                <ScalarProperty Name="Pole28" ColumnName="Pole28" />
+                <ScalarProperty Name="Pole29" ColumnName="Pole29" />
+                <ScalarProperty Name="Pole30" ColumnName="Pole30" />
+                <ScalarProperty Name="Pole31" ColumnName="Pole31" />
+                <ScalarProperty Name="Pole32" ColumnName="Pole32" />
+                <ScalarProperty Name="MeasurementId" ColumnName="MeasurementId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

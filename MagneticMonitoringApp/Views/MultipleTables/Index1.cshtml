@@ -1,0 +1,60 @@
+﻿@model  IEnumerable<MagneticMonitoringApp.Models.Measurement>
+
+@{
+    ViewBag.Title = "Index1";
+}
+
+<link href="~/Content/Results.css" rel="stylesheet" />
+
+<h2 style="text-align: center">Date of measurements for Generator @if(@Model.Any()){@Model.First().GeneratorId} </h2>
+
+<div class="container">
+    <div class="table-responsive">
+        <table id="datatable" class="table table-hover table-striped table-bordered">
+            <thead>
+                <tr style="color:#1B3409; background-color:#9BD770">
+                    <th>
+                        Date:
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in @Model)
+                {
+                    @*@Html.DisplayFor(modelItem => item.Path1___raw_signal);*@
+
+                    <tr>
+                        <td>
+                            @Html.ActionLink(item.Date.ToString(), "Index2", "MultipleTables", new { measurementId = item.Id }, new { style = "color:#1B3409; font-weight: bold;" })
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+            <tfoot>
+                <tr style="color:#1B3409; background-color:#9BD770">
+                    <td>
+                        Date of measurements of magnetic flux
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+@*https://stackoverflow.com/questions/16775316/how-to-use-jquery-datatable-net-with-asp-net-4-razor-and-twitter-bootstrap*@
+
+@Styles.Render("~/Content/datatables")
+
+@section Scripts {
+    @Scripts.Render("~/Scripts/datatables")
+
+    <script type="text/javascript" language="javascript">
+
+        /* Table initialization */
+        $(document).ready(function () {
+            $('#datatable').dataTable();
+        });
+
+    </script>
+}

@@ -1,0 +1,15 @@
+﻿@model IEnumerable<MagneticMonitoringApp.Models.Generator>
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/Results.css" rel="stylesheet" />
+
+
+<h2>Generators:</h2>
+
+@foreach (var item in @Model)
+{
+    <li style="list-style-type: none;"> @Html.ActionLink(item.Name + HttpUtility.HtmlDecode(" &raquo;"), "Index1", "MultipleTables", new { generatorId = item.Id }, new { @class = "btn btn-success btn-lg" })</li>
+    <br />
+}

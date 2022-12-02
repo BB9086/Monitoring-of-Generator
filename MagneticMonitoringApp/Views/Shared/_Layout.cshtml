@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link href="~/Content/MainPage.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="my-block" class="navbar navbar-default navbar-fixed-top" style="background-color:#1B3409">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul class="nav navbar-nav">
+                    <li>
+                        @Html.ActionLink("Magnetic Flux Monitoring", "Index", "Home", new { area = "" }, new { @class = "navbar-brand", style = "color:#EBF7E3" })
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Results", "Index", "MultipleTables", null, new {style = "color:#EBF7E3" })</li>
+                    <li>@Html.ActionLink("Measurements", "Index", "Measurements", null, new { style = "color:#EBF7E3" })</li>
+                    <li>@Html.ActionLink("Generators", "Index", "Generators", null, new { style = "color:#EBF7E3" })</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home", null, new { style = "color:#EBF7E3" })</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Magnetic Flux Monitoring</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

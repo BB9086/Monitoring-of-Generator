@@ -1,0 +1,94 @@
+﻿@model MagneticMonitoringApp.Models.Measurement
+@using MagneticMonitoringApp.Models;
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/boost.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="~/Scripts/RawSignalGraphic.js"></script>
+
+<link href="~/Content/Results.css" rel="stylesheet" />
+
+<h2 style="text-align: center">Details</h2>
+
+<h4 style="text-align: center">Measurement</h4>
+<hr />
+
+<div class="parent1">
+    <div id="detailsBlock">
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Date)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Date)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Path1___raw_signal)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Path1___raw_signal)
+                @Html.Hidden("Path1___raw_signal")
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Path2___fft)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Path2___fft)
+            </dd>
+
+            @*<dt>
+                    @Html.DisplayNameFor(model => model.Path3___signal_features)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Path3___signal_features)
+                </dd>*@
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Generator.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Generator.Name)
+            </dd>
+
+            <dt>
+                Graphic
+            </dt>
+        </dl>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <figure class="highcharts-figure">
+        <div id="container"></div>
+        <p class="highcharts-description" style="text-align: center;">
+            Highchart - magnetic flux monitoring
+        </p>
+    </figure>
+</div>
+
+<div id="divloading" style="display:none;">
+    <img src="~/Images/spinner.gif" style="display: block; margin-left: auto; margin-right: auto;" />
+</div>
+
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { style = "color:#1B3409; font-weight: bold;" }) |*@
+    @Html.ActionLink("Back to List", "Index", null, new { style = "color:#1B3409; font-weight: bold;" })
+</p>
+
+@Html.Hidden("UrlEndPointName", Url.Action("GetData", "Measurements"))
+
+<script src="~/Scripts/RawSignalGraphic.js"></script>

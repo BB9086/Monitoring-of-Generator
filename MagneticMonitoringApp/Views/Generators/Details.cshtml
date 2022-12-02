@@ -1,0 +1,51 @@
+﻿@model MagneticMonitoringApp.Models.Generator
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<link href="~/Content/Results.css" rel="stylesheet" />
+
+<h2 style="text-align: center">Details</h2>
+
+<div>
+    <h4 style="text-align: center">Generator</h4>
+    <hr />
+    <div class="parent1">
+        <div class="form-horizontal">
+            <div>
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Name)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Power_MW)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Power_MW)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Year)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Year)
+                    </dd>
+                </dl>
+            </div>
+
+            <div>
+                @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { style = "color:#1B3409; font-weight: bold;" }) |
+                @Html.ActionLink("Back to List", "Index", null, new { style = "color:#1B3409; font-weight: bold;" })
+            </div>
+        </div>
+    </div>
+</div>
+

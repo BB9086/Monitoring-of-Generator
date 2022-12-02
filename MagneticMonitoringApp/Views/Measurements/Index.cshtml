@@ -1,0 +1,80 @@
+﻿@model IEnumerable<MagneticMonitoringApp.Models.Measurement>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/Results.css" rel="stylesheet" />
+
+<h2 style="text-align: center">List of measurements</h2>
+
+<div class="container">
+    <div class="table-responsive">
+        <table id="datatable" class="table table-hover table-striped table-bordered">
+            <thead>
+                <tr style="color:#1B3409; background-color:#9BD770">
+                    <th>
+                        @Html.DisplayNameFor(model => model.Date)
+                    </th>
+                    @*<th>
+                            @Html.DisplayNameFor(model => model.Path1___raw_signal)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Path2___fft)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Path3___signal_features)
+                        </th>*@
+                    <th>
+                        @Html.DisplayNameFor(model => model.Generator.Name)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Date)
+                        </td>
+                        @*<td>
+                                @Html.DisplayFor(modelItem => item.Path1___raw_signal)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Path2___fft)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Path3___signal_features)
+                            </td>*@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Generator.Name)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Details", "Details", new { id = item.Id }, new { style = "color:#1B3409; font-weight: bold;" }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { style = "color:#1B3409; font-weight: bold;" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@*https://stackoverflow.com/questions/16775316/how-to-use-jquery-datatable-net-with-asp-net-4-razor-and-twitter-bootstrap*@
+
+@Styles.Render("~/Content/datatables")
+
+@section Scripts {
+    @Scripts.Render("~/Scripts/datatables")
+
+    <script type="text/javascript" language="javascript">
+
+        /* Table initialization */
+        $(document).ready(function () {
+            $('#datatable').DataTable({
+                paging: true
+            });
+        });
+    </script>
+}

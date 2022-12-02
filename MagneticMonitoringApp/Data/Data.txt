@@ -1,0 +1,333 @@
+﻿Home -> TrendAnalysis -> The view 'TrendAnalysis' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/TrendAnalysis.aspx
+~/Views/Home/TrendAnalysis.ascx
+~/Views/Shared/TrendAnalysis.aspx
+~/Views/Shared/TrendAnalysis.ascx
+~/Views/Home/TrendAnalysis.cshtml
+~/Views/Home/TrendAnalysis.vbhtml
+~/Views/Shared/TrendAnalysis.cshtml
+~/Views/Shared/TrendAnalysis.vbhtml 	- 08/09/2020 12:46:29
+---------------------------------------------------------
+Measurements -> Create -> Value cannot be null or empty.
+Parameter name: name 	- 09/09/2020 13:13:53
+---------------------------------------------------------
+Home -> TrendAnalysis -> The view 'TrendAnalysis' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/TrendAnalysis.aspx
+~/Views/Home/TrendAnalysis.ascx
+~/Views/Shared/TrendAnalysis.aspx
+~/Views/Shared/TrendAnalysis.ascx
+~/Views/Home/TrendAnalysis.cshtml
+~/Views/Home/TrendAnalysis.vbhtml
+~/Views/Shared/TrendAnalysis.cshtml
+~/Views/Shared/TrendAnalysis.vbhtml 	- 09/09/2020 14:51:22
+---------------------------------------------------------
+MultipleTables -> Index2 -> The parameters dictionary contains a null entry for parameter 'measurementId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index2(Int32)' in 'MagneticMonitoringApp.Controllers.MultipleTablesController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters 	- 11/09/2020 13:50:49
+---------------------------------------------------------
+MultipleTables -> Index2 -> The parameters dictionary contains a null entry for parameter 'measurementId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index2(Int32)' in 'MagneticMonitoringApp.Controllers.MultipleTablesController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters 	- 11/09/2020 13:55:54
+---------------------------------------------------------
+MultipleTables -> Index2 -> The parameters dictionary contains a null entry for parameter 'measurementId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index2(Int32)' in 'MagneticMonitoringApp.Controllers.MultipleTablesController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters 	- 13/09/2020 16:43:58
+---------------------------------------------------------
+MultipleTables -> Index2 -> The parameters dictionary contains a null entry for parameter 'measurementId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index2(Int32)' in 'MagneticMonitoringApp.Controllers.MultipleTablesController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters 	- 13/09/2020 16:44:33
+---------------------------------------------------------
+Home -> GraphicView -> The view 'GraphicView' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/GraphicView.aspx
+~/Views/Home/GraphicView.ascx
+~/Views/Shared/GraphicView.aspx
+~/Views/Shared/GraphicView.ascx
+~/Views/Home/GraphicView.cshtml
+~/Views/Home/GraphicView.vbhtml
+~/Views/Shared/GraphicView.cshtml
+~/Views/Shared/GraphicView.vbhtml 	- 13/09/2020 20:13:39
+---------------------------------------------------------
+Home -> TrendAnalysis -> The view 'TrendAnalysis' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/TrendAnalysis.aspx
+~/Views/Home/TrendAnalysis.ascx
+~/Views/Shared/TrendAnalysis.aspx
+~/Views/Shared/TrendAnalysis.ascx
+~/Views/Home/TrendAnalysis.cshtml
+~/Views/Home/TrendAnalysis.vbhtml
+~/Views/Shared/TrendAnalysis.cshtml
+~/Views/Shared/TrendAnalysis.vbhtml 	- 13/09/2020 20:13:53
+---------------------------------------------------------
+Home -> GraphicView -> The view 'GraphicView' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/GraphicView.aspx
+~/Views/Home/GraphicView.ascx
+~/Views/Shared/GraphicView.aspx
+~/Views/Shared/GraphicView.ascx
+~/Views/Home/GraphicView.cshtml
+~/Views/Home/GraphicView.vbhtml
+~/Views/Shared/GraphicView.cshtml
+~/Views/Shared/GraphicView.vbhtml 	- 14/09/2020 07:38:53
+---------------------------------------------------------
+Home -> GraphicView -> The view 'GraphicView' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/GraphicView.aspx
+~/Views/Home/GraphicView.ascx
+~/Views/Shared/GraphicView.aspx
+~/Views/Shared/GraphicView.ascx
+~/Views/Home/GraphicView.cshtml
+~/Views/Home/GraphicView.vbhtml
+~/Views/Shared/GraphicView.cshtml
+~/Views/Shared/GraphicView.vbhtml 	- 14/09/2020 10:13:54
+---------------------------------------------------------
+Home -> TrendAnalysis -> The view 'TrendAnalysis' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/TrendAnalysis.aspx
+~/Views/Home/TrendAnalysis.ascx
+~/Views/Shared/TrendAnalysis.aspx
+~/Views/Shared/TrendAnalysis.ascx
+~/Views/Home/TrendAnalysis.cshtml
+~/Views/Home/TrendAnalysis.vbhtml
+~/Views/Shared/TrendAnalysis.cshtml
+~/Views/Shared/TrendAnalysis.vbhtml 	- 14/09/2020 14:26:09
+---------------------------------------------------------
+Home -> TrendAnalysis -> The view 'TrendAnalysis' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/TrendAnalysis.aspx
+~/Views/Home/TrendAnalysis.ascx
+~/Views/Shared/TrendAnalysis.aspx
+~/Views/Shared/TrendAnalysis.ascx
+~/Views/Home/TrendAnalysis.cshtml
+~/Views/Home/TrendAnalysis.vbhtml
+~/Views/Shared/TrendAnalysis.cshtml
+~/Views/Shared/TrendAnalysis.vbhtml 	- 15/09/2020 10:55:34
+---------------------------------------------------------
+Home -> TrendAnalysis -> The view 'TrendAnalysis' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/TrendAnalysis.aspx
+~/Views/Home/TrendAnalysis.ascx
+~/Views/Shared/TrendAnalysis.aspx
+~/Views/Shared/TrendAnalysis.ascx
+~/Views/Home/TrendAnalysis.cshtml
+~/Views/Home/TrendAnalysis.vbhtml
+~/Views/Shared/TrendAnalysis.cshtml
+~/Views/Shared/TrendAnalysis.vbhtml 	- 15/09/2020 13:24:32
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 13:47:59
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 13:48:45
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 13:49:48
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 13:50:11
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 13:52:50
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 14:01:33
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 14:02:21
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 14:02:29
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 14:02:36
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 14:03:19
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 14:04:25
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 14:04:38
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 14:05:13
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 14:05:36
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 14:06:17
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 14:11:14
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 14:12:18
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 15:24:12
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 15:28:02
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 15/09/2020 15:33:34
+---------------------------------------------------------
+Measurements -> Details -> Value cannot be null or empty.
+Parameter name: name 	- 15/09/2020 15:45:24
+---------------------------------------------------------
+Measurements -> Details -> Value cannot be null or empty.
+Parameter name: name 	- 15/09/2020 15:46:23
+---------------------------------------------------------
+Measurements -> Details -> Value cannot be null or empty.
+Parameter name: name 	- 15/09/2020 15:46:26
+---------------------------------------------------------
+Measurements -> Details -> Value cannot be null or empty.
+Parameter name: name 	- 15/09/2020 15:51:25
+---------------------------------------------------------
+Measurements -> Details -> Value cannot be null or empty.
+Parameter name: name 	- 15/09/2020 15:52:23
+---------------------------------------------------------
+Measurements -> Details -> Value cannot be null or empty.
+Parameter name: name 	- 15/09/2020 15:54:09
+---------------------------------------------------------
+Measurements -> Details -> Value cannot be null or empty.
+Parameter name: name 	- 15/09/2020 15:56:46
+---------------------------------------------------------
+Measurements -> Details -> Value cannot be null or empty.
+Parameter name: name 	- 15/09/2020 16:01:54
+---------------------------------------------------------
+Measurements -> GetData -> Value cannot be null.
+Parameter name: path 	- 15/09/2020 16:04:53
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Program Files (x86)\IIS Express\' + $('#Path1___raw_signal').val() + ''. 	- 15/09/2020 16:05:31
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Program Files (x86)\IIS Express\' + $('#Path1___raw_signal').val() + ''. 	- 15/09/2020 16:07:11
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Program Files (x86)\IIS Express\' + $('#Path1___raw_signal').val() + ''. 	- 15/09/2020 16:07:59
+---------------------------------------------------------
+Measurements -> GetData -> Invalid JSON primitive: filepath. 	- 15/09/2020 16:08:53
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1'. 	- 15/09/2020 16:11:48
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1'. 	- 15/09/2020 16:12:14
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1'. 	- 15/09/2020 16:14:52
+---------------------------------------------------------
+Home -> GraphicView -> The view 'GraphicView' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/GraphicView.aspx
+~/Views/Home/GraphicView.ascx
+~/Views/Shared/GraphicView.aspx
+~/Views/Shared/GraphicView.ascx
+~/Views/Home/GraphicView.cshtml
+~/Views/Home/GraphicView.vbhtml
+~/Views/Shared/GraphicView.cshtml
+~/Views/Shared/GraphicView.vbhtml 	- 16/09/2020 09:03:36
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1'. 	- 16/09/2020 09:07:41
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1'. 	- 16/09/2020 09:09:13
+---------------------------------------------------------
+Measurements -> GetData -> Value cannot be null.
+Parameter name: path 	- 16/09/2020 09:09:26
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1.txt'. 	- 16/09/2020 09:27:28
+---------------------------------------------------------
+Home -> TrendAnalysis -> The view 'TrendAnalysis' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/TrendAnalysis.aspx
+~/Views/Home/TrendAnalysis.ascx
+~/Views/Shared/TrendAnalysis.aspx
+~/Views/Shared/TrendAnalysis.ascx
+~/Views/Home/TrendAnalysis.cshtml
+~/Views/Home/TrendAnalysis.vbhtml
+~/Views/Shared/TrendAnalysis.cshtml
+~/Views/Shared/TrendAnalysis.vbhtml 	- 16/09/2020 09:29:55
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 16/09/2020 09:30:28
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 16/09/2020 09:30:40
+---------------------------------------------------------
+Home -> GraphicView -> The view 'GraphicView' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/GraphicView.aspx
+~/Views/Home/GraphicView.ascx
+~/Views/Shared/GraphicView.aspx
+~/Views/Shared/GraphicView.ascx
+~/Views/Home/GraphicView.cshtml
+~/Views/Home/GraphicView.vbhtml
+~/Views/Shared/GraphicView.cshtml
+~/Views/Shared/GraphicView.vbhtml 	- 16/09/2020 11:25:09
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Program Files (x86)\IIS Express\.lvm'. 	- 16/09/2020 11:30:38
+---------------------------------------------------------
+Home -> TrendAnalysis -> The view 'TrendAnalysis' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/TrendAnalysis.aspx
+~/Views/Home/TrendAnalysis.ascx
+~/Views/Shared/TrendAnalysis.aspx
+~/Views/Shared/TrendAnalysis.ascx
+~/Views/Home/TrendAnalysis.cshtml
+~/Views/Home/TrendAnalysis.vbhtml
+~/Views/Shared/TrendAnalysis.cshtml
+~/Views/Shared/TrendAnalysis.vbhtml 	- 16/09/2020 11:58:58
+---------------------------------------------------------
+MultipleTables -> Index2 -> The parameters dictionary contains a null entry for parameter 'measurementId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index2(Int32)' in 'MagneticMonitoringApp.Controllers.MultipleTablesController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters 	- 16/09/2020 12:13:46
+---------------------------------------------------------
+Home -> TrendAnalysis -> The view 'TrendAnalysis' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/TrendAnalysis.aspx
+~/Views/Home/TrendAnalysis.ascx
+~/Views/Shared/TrendAnalysis.aspx
+~/Views/Shared/TrendAnalysis.ascx
+~/Views/Home/TrendAnalysis.cshtml
+~/Views/Home/TrendAnalysis.vbhtml
+~/Views/Shared/TrendAnalysis.cshtml
+~/Views/Shared/TrendAnalysis.vbhtml 	- 16/09/2020 12:52:41
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Program Files (x86)\IIS Express\.lvm'. 	- 17/09/2020 11:44:13
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1.lvm.lvm'. 	- 17/09/2020 11:45:09
+---------------------------------------------------------
+Measurements -> GetData -> Illegal characters in path. 	- 17/09/2020 11:45:20
+---------------------------------------------------------
+Measurements -> GetData -> Illegal characters in path. 	- 17/09/2020 11:45:53
+---------------------------------------------------------
+Home -> TrendAnalysis -> The view 'TrendAnalysis' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/TrendAnalysis.aspx
+~/Views/Home/TrendAnalysis.ascx
+~/Views/Shared/TrendAnalysis.aspx
+~/Views/Shared/TrendAnalysis.ascx
+~/Views/Home/TrendAnalysis.cshtml
+~/Views/Home/TrendAnalysis.vbhtml
+~/Views/Shared/TrendAnalysis.cshtml
+~/Views/Shared/TrendAnalysis.vbhtml 	- 18/09/2020 09:02:19
+---------------------------------------------------------
+Measurements -> Index -> Expected "}".
+ 	- 22/09/2020 12:20:12
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_6.lvm'. 	- 24/09/2020 12:16:28
+---------------------------------------------------------
+Measurements -> GetData -> Could not find file 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_6.lvm'. 	- 24/09/2020 12:16:28
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 24/09/2020 12:16:37
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 24/09/2020 12:16:37
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 24/09/2020 12:16:42
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 24/09/2020 12:16:42
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 24/09/2020 12:45:45
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 24/09/2020 12:45:45
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 24/09/2020 12:45:51
+---------------------------------------------------------
+Measurements -> GetData -> Error during serialization or deserialization using the JSON JavaScriptSerializer. The length of the string exceeds the value set on the maxJsonLength property. 	- 24/09/2020 12:45:51
+---------------------------------------------------------
+Account -> Register -> A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) 	- 02/10/2020 08:39:29
+---------------------------------------------------------
+MultipleTables -> Index -> C:\Users\blagoje\Desktop\MagneticMonitoring web application\Web app\MagneticMonitoringApp\MagneticMonitoringApp\Views\MultipleTables\Index.cshtml(10): error CS1026: ) expected 	- 06/10/2020 08:52:01
+---------------------------------------------------------
+Home -> Index -> C:\Users\blagoje\Desktop\MagneticMonitoring web application\Web app\MagneticMonitoringApp\MagneticMonitoringApp\Views\Home\Index.cshtml(104): error CS0839: Argument missing 	- 06/10/2020 14:25:10
+---------------------------------------------------------
+MultipleTables -> Index1 -> The parameters dictionary contains a null entry for parameter 'generatorId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index1(Int32)' in 'MagneticMonitoringApp.Controllers.MultipleTablesController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters 	- 07/10/2020 08:13:23
+---------------------------------------------------------
+MultipleTables -> Index1 -> The parameters dictionary contains a null entry for parameter 'generatorId' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index1(Int32)' in 'MagneticMonitoringApp.Controllers.MultipleTablesController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters 	- 07/10/2020 08:20:50
+---------------------------------------------------------
+MultipleTables -> Index1 -> Sequence contains no elements 	- 07/10/2020 10:23:53
+---------------------------------------------------------
+MultipleTables -> Index1 -> Sequence contains no elements 	- 07/10/2020 10:23:57
+---------------------------------------------------------
+Measurements -> Index -> C:\Users\blagoje\Desktop\MagneticMonitoring web application\Web app\MagneticMonitoringApp\MagneticMonitoringApp\Views\Measurements\Index.cshtml(54): error CS1929: 'HtmlHelper<IEnumerable<Measurement>>' does not contain a definition for 'ActionLink' and the best extension method overload 'AjaxExtensions.ActionLink(AjaxHelper, string, string, object, AjaxOptions, object)' requires a receiver of type 'AjaxHelper' 	- 07/10/2020 11:01:41
+---------------------------------------------------------
+Measurements -> Delete -> An error occurred while updating the entries. See the inner exception for details. 	- 07/10/2020 12:18:39
+---------------------------------------------------------
+Generators -> Delete -> An error occurred while updating the entries. See the inner exception for details. 	- 07/10/2020 14:06:59
+---------------------------------------------------------
+Account -> Register -> Encountered end tag "div" with no matching start tag.  Are your start/end tags properly balanced?
+ 	- 07/10/2020 14:44:44
+---------------------------------------------------------
+Measurements -> GetData -> Could not find a part of the path 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1.lvm'. 	- 12/1/22 14:43:18
+---------------------------------------------------------
+Measurements -> GetData -> Could not find a part of the path 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1.lvm'. 	- 12/1/22 14:43:18
+---------------------------------------------------------
+Measurements -> GetData -> Could not find a part of the path 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1.lvm'. 	- 12/1/22 14:43:54
+---------------------------------------------------------
+Measurements -> GetData -> Could not find a part of the path 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1.lvm'. 	- 12/1/22 14:43:54
+---------------------------------------------------------
+Measurements -> GetData -> Could not find a part of the path 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1.lvm'. 	- 12/1/22 14:44:06
+---------------------------------------------------------
+Measurements -> GetData -> Could not find a part of the path 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1.lvm'. 	- 12/1/22 14:56:24
+---------------------------------------------------------
+Measurements -> GetData -> Could not find a part of the path 'C:\Users\blagoje\Desktop\DataMagneticMonitoring\G1\Raw_signal_1.lvm'. 	- 12/1/22 14:56:24
+---------------------------------------------------------

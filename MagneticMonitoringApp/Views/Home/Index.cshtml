@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="jumbotron" style="background-color:#EBF7E3">
+    <h2 style="color:#1B3409">Magnetic Flux Monitoring</h2>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="row">
+                <p class="lead">Magnetic flux monitoring measures the flux of each rotor poles to detect defaults in the magnetic field homogeneity. Such failure can be explained by short-circuit in a specific rotor pole or by air-gap asymmetry. This failure can reduce the operating efficiency or generate high vibrations due to magnetic unbalance.</p>
+            </div>
+            <div class="row">
+                <h3 class="col-md-12">Magnetic Flux and Magnetic Induction</h3>
+                <div class="col-sm-6 hidden-sm hidden-xs">
+                    <div style="background-color:#1B3409; color:#EBF7E3">
+                        <div class="container">
+                            <div class="overlay">
+                                <div class="text">
+                                    <h4>Shape of the signals at 25 MW, 0 MVAr - raw data (red line) should be integrated (white line) for further processing </h4>
+                                </div>
+                            </div>
+                            <h4>Shape of the signals at 25 MW, 0 MVAr  </h4>
+                            <img alt="Magnetic Flux 1" src="~/Images/Flux1.jpg" class="img-responsive img-thumbnail image"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 hidden-sm hidden-xs">
+                    <div style="background-color:#1B3409; color:#EBF7E3">
+                        <div class="container">
+                            <div class="overlay">
+                                <div class="text">
+                                    <h4>Shape of the signals at 40 MW, 0 MVAr - raw data (red line) should be integrated (white line) for further processing  </h4>
+                                </div>
+                            </div>
+                            <h4>Shape of the signals at 40 MW, 0 MVAr  </h4>
+                            <img alt="Magnetic Flux 2" src="~/Images/Flux2.jpg" class="img-responsive img-thumbnail image"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div id="imageCarousel" class="carousel slide" data-interval="2000"
+                 data-ride="carousel" data-pause="hover" data-wrap="true">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#imageCarousel" data-slide-to="1"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img alt="Hydrogenerators" src="/Images/hydrogenerator.jpg" class="img-responsive img-thumbnail" />
+                        <div class="carousel-caption">
+                            <h3>Generator 1</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="Hydrogenerators" src="/Images/hydrogenerators.jpg" class="img-responsive img-thumbnail" />
+                        <div class="carousel-caption">
+                            <h3>Generators</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#imageCarousel" class="carousel-control left" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#imageCarousel" class="carousel-control right" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="gen">
+            <h4 style="color:#1B3409">Current results for Generator1</h4>
+            <p> @Html.ActionLink(HttpUtility.HtmlDecode("Generator 1 &raquo;"), "Index1", "MultipleTables", new { generatorId = 1}, new { @class = "btn btn-success btn-lg" })</p>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="gen">
+            <h4 style="color:#1B3409">Current results for Generator2</h4>
+            <p> @Html.ActionLink(HttpUtility.HtmlDecode("Generator 2 &raquo;"), "Index1", "MultipleTables", new { generatorId = 2 }, new { @class = "btn btn-success btn-lg" })</p>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="gen">
+            <h4 style="color:#1B3409">Current results for Generator3</h4>
+            <p> @Html.ActionLink(HttpUtility.HtmlDecode("Generator 3 &raquo;"), "Index1", "MultipleTables", new { generatorId = 3 }, new { @class = "btn btn-success btn-lg" })</p>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="gen">
+            <h4 style="color:#1B3409">Current results for Generator4</h4>
+            <p> @Html.ActionLink(HttpUtility.HtmlDecode("Generator 4 &raquo;"), "Index1", "MultipleTables", new { generatorId = 4 }, new { @class = "btn btn-success btn-lg" })</p>
+        </div>
+    </div>
+</div>
+

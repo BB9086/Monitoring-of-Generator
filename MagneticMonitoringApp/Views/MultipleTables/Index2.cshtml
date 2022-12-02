@@ -1,0 +1,101 @@
+﻿@model MagneticMonitoringApp.Models.ResultAlgorithms1and2
+
+@{
+    ViewBag.Title = "Index3";
+}
+
+<link href="~/Content/Results.css" rel="stylesheet" />
+
+@*Charts from: https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/demo/polar*@
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+<link href="~/Content/RadialGraphic.css" rel="stylesheet" />
+
+<style>
+    .highcharts-figure:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1);
+        -webkit-transition: transform 1.05s ease-in-out;
+        -moz-transition: transform 1.05s ease-in-out;
+    }
+</style>
+
+<h2>Results</h2>
+
+<div class="container-fluid" id="content">
+    <div class="row">
+        <div class="col-lg-2 col-md-6 col-sm-12 column1" style="margin-bottom:5px">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered" style="width:100%">
+                    <tr>
+                        <td>
+                            @Html.Partial("_ResultAlgorithm1", Model)
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+            <figure class="highcharts-figure col-lg-4 col-md-6 col-sm-12 column2">
+                <div id="container"></div>
+                <p class="highcharts-description">
+                    Polar Chart
+                </p>
+            </figure>
+
+        @*this class is implemented because columns are of different height - to make responsive web page for md - https://stackoverflow.com/questions/22310912/bootstrap-row-with-columns-of-different-height*@
+        <div class="clearfix visible-md"></div>
+
+        <div class="col-lg-2 col-md-6 col-sm-12 column3" style="margin-bottom:5px">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered" style="width:100%">
+                    <tr>
+                        <td>
+                            @Html.Partial("_ResultAlgorithm2", Model)
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+            <figure class="highcharts-figure col-lg-4 col-md-6 col-sm-12 column4">
+                <div id="container2"></div>
+                <p class="highcharts-description">
+                    Polar Chart
+                </p>
+            </figure>
+    </div>
+</div>
+
+<script src="~/Scripts/RadialGraphic1JSScript.js"></script>
+<script src="~/Scripts/RadialGraphic2JSScript.js"></script>
+<script src="~/Scripts/PositionFixedWhenScroll.js"></script>
+
+@*<script type="text/javascript">
+        $(document).ready(function () {
+            $('.highcharts-figure').on({
+                mouseover: function () {
+                    $(this).animate({
+                        'height': 400,
+                        'width': 400,
+                    }, 3000);
+                },
+                mouseout: function () {
+                    $(this).animate({
+                        'height': 100,
+                        'width': 100,
+                    }, 3000);
+                }
+            });
+        });
+    </script>*@
+
+

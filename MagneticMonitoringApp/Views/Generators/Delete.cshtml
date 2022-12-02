@@ -1,0 +1,59 @@
+﻿@model MagneticMonitoringApp.Models.Generator
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<link href="~/Content/Results.css" rel="stylesheet" />
+
+<h2 style="text-align: center">Delete</h2>
+
+<h3 style="text-align: center">Are you sure you want to delete this?</h3>
+
+<h4 style="text-align: center">Generator</h4>
+<hr />
+
+<div class="parent1">
+    <div class="center1">
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Power_MW)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Power_MW)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Year)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Year)
+            </dd>
+
+        </dl>
+    </div>
+</div>
+<br />
+<div class="parent2">
+    <div class="center2">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-success btn-lg" /> |
+                @Html.ActionLink("Back to List", "Index", null, new { style = "color:#1B3409; font-weight: bold;" })
+            </div>
+        }
+    </div>
+</div>

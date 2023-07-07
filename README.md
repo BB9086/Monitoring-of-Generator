@@ -1,6 +1,6 @@
 # Magnetic Monitoring of Generators - ASP.NET MVC, ASP.NET Web API, jQuery, Bootstrap, SQL 
 
-**About this app:** The application provides instant analysis of the magnetic flux in the generator to indicate the presence and location any rotor poles with shorted turns. Entity Framework Database First Approach was used to interact with the SQL Server database. A REST API enables registered users to access and use data (results of magnetic flux processing). ASP.NET Web API Google authentication is also implemented.
+**About this app:** This application provides instant analysis of the magnetic flux in the generator to indicate the presence and location any rotor poles with shorted turns. Entity Framework Database First Approach was used to interact with the SQL Server database. A REST API enables registered users to access and use data (results of magnetic flux processing). ASP.NET Web API Google authentication is also implemented.
 
 ## Screenshots
 
